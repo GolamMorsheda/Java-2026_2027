@@ -5,7 +5,7 @@ public class Main{
         Studente b= new Studente("Bea", "Rossi", 5, 1.0, 15);
 
 
-        System.out.println(a.nome + " e': " + a.calcolaIndice(a.peso, a.altezza));
-        System.out.println(b.nome + " e': " + b.calcolaIndice(b.peso, b.altezza));
+        System.out.println(a.nome + " e': " + a.calcolaIndice());
+        System.out.println(b.nome + " e': " + b.calcolaIndice());
     }
 }

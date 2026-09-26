@@ -45,17 +45,20 @@ public class Studente {
         return s;
     }
 
-    public String calcolaIndice(double peso, double altezza) {
+
+    //NON C'È BISOGNO DI METTERE I PARAMETRI
+    //QUANDO SIAMO DENTRO POSSIAMO NON METTERE IL THIS
+    public String calcolaIndice() {
         double BMI;
         BMI = peso/(altezza*altezza);
         if (BMI < 18.5){
-            return "Sottopeso";
+            return "Sottopeso con indice di " + BMI;
         } else if (BMI >= 18.5 && BMI <=24.9) {
-            return "Normopeso";
+            return "Normopeso con indice di " + BMI;
         } else if (BMI >=25 && BMI <= 29.9) {
-            return "Sovrappeso";
+            return "Sovrappeso con indice di " + BMI;
         }else {
-            return "Obesita'";
+            return "Obesita' con indice di " + BMI;
         }
     }
 
