@@ -7,5 +7,9 @@ public class Main{
 
         System.out.println(a.nome + " e': " + a.calcolaIndice());
         System.out.println(b.nome + " e': " + b.calcolaIndice());
+
+        System.out.println(a);
+        System.out.println(b);
+
     }
 }
