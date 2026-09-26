@@ -11,5 +11,23 @@ public class Main{
         System.out.println(a);
         System.out.println(b);
 
+        /*Scanner sc = new Scanner;
+        int eta, scelta;
+        double altezza, massa;
+        Studente s1 = null;
+        Studente s2 = null;
+        do{
+            System.out.println("inserisci la tua scelta");
+            scelta = sc.nectInt(){
+                case 1:
+                    System.out.println("Inserisci nome del primo stud")
+                    nome = sc.next();
+                    System.out.println("Inserisci cognome del primo stud")
+                    cognome = sc.next;
+                    break;
+            }
+        }
+
+        */
     }
 }
