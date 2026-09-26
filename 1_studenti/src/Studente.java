@@ -6,6 +6,7 @@ public class Studente {
     String cognome;
     int eta;
     double altezza;
+    double peso;
 
     //public Studente(String name, String surname, int age, double height){
 
@@ -16,7 +17,7 @@ public class Studente {
     //}
 
     //COSTRUTTORE DI COPIA
-    public Studente(String nome, String cognome, int eta, double altezza){
+    public Studente(String nome, String cognome, int eta, double altezza, double peso){
         this.nome = nome;
         this.cognome = cognome;
         if (this.eta <= 5){ //CONTROLLO VALORI
@@ -25,6 +26,7 @@ public class Studente {
             this.eta = eta;
         }
         this.altezza = altezza;
+        this.peso = peso;
     }
 
     //COSTRUTTORE DI DEFAULT NON HA BISOGNO DI NULLA COME PARAMETRI
@@ -33,6 +35,7 @@ public class Studente {
       this.cognome = " ";
       this.eta = 0;
       this.altezza = 0.0;
+      this.peso = 0.0;
     }
     //OVERRIDE
 
@@ -47,9 +50,9 @@ public class Studente {
         BMI = peso/(altezza*altezza);
         if (BMI < 18.5){
             return "Sottopeso";
-        } else if (BMI >= 18.5 || BMI <=24.9) {
+        } else if (BMI >= 18.5 && BMI <=24.9) {
             return "Normopeso";
-        } else if (BMI >=25 || BMI <= 29.9) {
+        } else if (BMI >=25 && BMI <= 29.9) {
             return "Sovrappeso";
         }else {
             return "Obesita'";
