@@ -24,7 +24,7 @@ public class LampadinaIntelligente {
         return nome;
     }
 
-    public void setNome(){
+    public void setNome(String nome){
         this.nome = nome;
     }
 
@@ -32,7 +32,7 @@ public class LampadinaIntelligente {
         return colore;
     }
 
-    public void setColore(){
+    public void setColore(String colore){
         this.colore = colore;
     }
 
