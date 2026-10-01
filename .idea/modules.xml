@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LampadinaIntelligente/LampadinaIntelligente.iml" filepath="$PROJECT_DIR$/LampadinaIntelligente/LampadinaIntelligente.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dado/dado.iml" filepath="$PROJECT_DIR$/dado/dado.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/lab.iml" filepath="$PROJECT_DIR$/.idea/lab.iml" />
     </modules>
   </component>
