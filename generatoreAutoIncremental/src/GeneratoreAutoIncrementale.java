@@ -6,6 +6,7 @@ public class GeneratoreAutoIncrementale {
 
 
     public  GeneratoreAutoIncrementale(String alfabetico, int nNumero){
+        this.prefisso = alfabetico;
 
     }
 }
