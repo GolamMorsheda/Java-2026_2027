@@ -15,6 +15,8 @@ public class Punto { //x e y di 1 punto
         return y;
     }
 
+    //aggiungere due set
+
     public String toString(){
         return "La X del punto e': " + this.x + " e la Y e': " + this.y;
     }
@@ -22,5 +24,7 @@ public class Punto { //x e y di 1 punto
     public Punto spostaPunto(double dx, double dy){
         return new Punto(x+dx, y+dy);
     }
+
+
 
 }
