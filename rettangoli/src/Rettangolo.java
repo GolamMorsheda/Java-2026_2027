@@ -8,7 +8,7 @@ public class Rettangolo {
     }
 
     public Rettangolo effetuaTraslazione(){
-        return new Rettangolo()
+        return new Rettangolo(a.spostaPunto(dx, dy))
     }
 
     public boolean contenuto(Rettangolo r){
