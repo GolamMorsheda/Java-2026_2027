@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/LampadinaIntelligente/LampadinaIntelligente.iml" filepath="$PROJECT_DIR$/LampadinaIntelligente/LampadinaIntelligente.iml" />
       <module fileurl="file://$PROJECT_DIR$/dado/dado.iml" filepath="$PROJECT_DIR$/dado/dado.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/lab.iml" filepath="$PROJECT_DIR$/.idea/lab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lettere_separate/lettere_separate.iml" filepath="$PROJECT_DIR$/lettere_separate/lettere_separate.iml" />
       <module fileurl="file://$PROJECT_DIR$/ordine_alfabetico/ordine_alfabetico.iml" filepath="$PROJECT_DIR$/ordine_alfabetico/ordine_alfabetico.iml" />
       <module fileurl="file://$PROJECT_DIR$/parola_lungaa/parola_lungaa.iml" filepath="$PROJECT_DIR$/parola_lungaa/parola_lungaa.iml" />
     </modules>
